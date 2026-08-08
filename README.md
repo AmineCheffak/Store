@@ -121,3 +121,43 @@ com.amine.ecommerce
 │   └── ProductService.java
 │
 └── EcommerceApplication.java
+
+```
+# 🎨 Frontend Structure
+
+The frontend is developed using **React.js** and is organized into reusable components, pages, and sections.
+
+The main frontend source code is located inside:
+
+```text
+reactjs/src/
+src/
+│
+├── assets/
+│
+├── Component/
+│   ├── Button.jsx
+│   ├── Cart.jsx
+│   ├── Header.jsx
+│   ├── login-form.jsx
+│   ├── Nav.jsx
+│   └── SignUp-form.jsx
+│
+├── Page/
+│   ├── admin.jsx
+│   ├── Carts.jsx
+│   ├── Description.jsx
+│   ├── HistoryOrder.jsx
+│   ├── Home.jsx
+│   ├── Login.jsx
+│   ├── SignUp.jsx
+│   └── UserProfile.jsx
+│
+├── section/
+│   ├── About.jsx
+│   ├── Banner.jsx
+│   └── Footer.jsx
+│
+├── App.jsx
+├── index.css
+└── main.jsx
