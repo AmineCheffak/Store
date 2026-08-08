@@ -67,7 +67,8 @@ Client / React.js
 ┌──────────────────────┐
 │       MariaDB        │
 └──────────────────────┘
-
+```
+```text
 com.amine.ecommerce
 │
 ├── Config/
