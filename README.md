@@ -1,4 +1,4 @@
-# 🛒 Store - E-Commerce Application
+#  Store - E-Commerce Application
 
 Store is a full-stack e-commerce application built with a modern web architecture.
 The project is divided into a Spring Boot backend and a React.js frontend.
