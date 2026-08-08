@@ -68,6 +68,7 @@ Client / React.js
 │       MariaDB        │
 └──────────────────────┘
 ```
+# Spring
 ```text
 com.amine.ecommerce
 │
@@ -129,8 +130,9 @@ com.amine.ecommerce
 The frontend is developed using **React.js** and is organized into reusable components, pages, and sections.
 
 The main frontend source code is located inside:
-
+# Reactjs
 ```text
+
 reactjs/src/
 src/
 │
@@ -162,3 +164,16 @@ src/
 ├── App.jsx
 ├── index.css
 └── main.jsx
+
+
+```
+#application.properties
+```
+spring.datasource.url=jdbc:mariadb://localhost:3306/ecommerce?createDatabaseIfNotExist=true&useSSL=false
+spring.datasource.username=root
+spring.datasource.password=YOUR_PASSWORD
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
