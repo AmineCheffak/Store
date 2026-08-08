@@ -5,7 +5,7 @@ The project is divided into a Spring Boot backend and a React.js frontend.
 
 ---
 
-## 🛠️ Technologies
+## echnologies
 
 ### Backend
 
@@ -32,7 +32,7 @@ The project is divided into a Spring Boot backend and a React.js frontend.
 
 ---
 
-# 🏗️ Project Architecture
+# Project Architecture
 
 The backend follows a layered architecture based on separation of responsibilities.
 
@@ -125,7 +125,7 @@ com.amine.ecommerce
 └── EcommerceApplication.java
 
 ```
-# 🎨 Frontend Structure
+#  Frontend Structure
 
 The frontend is developed using **React.js** and is organized into reusable components, pages, and sections.
 
@@ -169,11 +169,13 @@ src/
 ```
 #application.properties
 ```
-spring.datasource.url=jdbc:mariadb://localhost:3306/ecommerce?createDatabaseIfNotExist=true&useSSL=false
+spring.application.name=Ecommerce
+spring.datasource.url=jdbc:mariadb://localhost:3306/ecommerce
 spring.datasource.username=root
-spring.datasource.password=YOUR_PASSWORD
-spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+spring.datasource.password=root123
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
+
+jwt.secret=kFXSUN+VcIJUeBFCBxPvnHdHRtMjWxZSncTmvR6CKyw=
