@@ -22,7 +22,6 @@ The project is divided into a Spring Boot backend and a React.js frontend.
 
 - React.js
 - JavaScript
-- Axios
 - Tailwind CSS
 
 ### Database
